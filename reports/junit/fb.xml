@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.001549">
+<testcase classname="To validate fb funct" name="to check create new Accout" time="37.001549">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//a[@role='butto'])[] because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//a[@role='butto'])[]' is not a valid XPath expression.&#10;  (Session info: chrome=101.0.4951.41)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-RIGKATV', ip: '192.168.126.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [804f9b0746637a2b31c4eb73b54923be, findElement {using=xpath, value=(//a[@role='butto'])[]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\zubee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59739/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 804f9b0746637a2b31c4eb73b54923be&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;&#10;&#9;at org.demo.stepDefinition.toClickSignUpButton(stepDefinition.java:34)&#13;&#10;&#9;at ✽.To click sign up button(file:src/test/resources/FeatureFiles/createaccount.feature:8)&#13;&#10;"><![CDATA[Given check fb function through chrome Browser..............................passed
+When To Click creat new account button......................................passed
+Then To click sign up button................................................failed
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//a[@role='butto'])[] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//a[@role='butto'])[]' is not a valid XPath expression.
+  (Session info: chrome=101.0.4951.41)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RIGKATV', ip: '192.168.126.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [804f9b0746637a2b31c4eb73b54923be, findElement {using=xpath, value=(//a[@role='butto'])[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\zubee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59739/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 804f9b0746637a2b31c4eb73b54923be
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.demo.stepDefinition.toClickSignUpButton(stepDefinition.java:34)
+	at ✽.To click sign up button(file:src/test/resources/FeatureFiles/createaccount.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
